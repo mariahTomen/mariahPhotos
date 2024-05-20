@@ -1,0 +1,28 @@
+body {
+    background: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+main {
+    background: white;
+    border-radius: 10px;
+    width: calc(100% - 18%);
+    height: calc(100% - 10%);
+    margin: 10px auto;
+}
+
+.card {
+    border-radius: 15px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+nav {
+    border-radius: 0px 0px 15px 15px;
+}
